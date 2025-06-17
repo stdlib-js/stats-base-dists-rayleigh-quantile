@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-16)
+## Unreleased (2025-06-17)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`ae5f230`](https://github.com/stdlib-js/stdlib/commit/ae5f2304c8b5e190e263c032ec1423ecf34e3b22) - **bench:** fix value generation _(by Athan Reines)_
 -   [`7165023`](https://github.com/stdlib-js/stdlib/commit/71650232e0a0f0cc55ba1d48ca40501cdeb90e36) - **feat:** add C implementation for `@stdlib/stats-base/dists/rayleigh/quantile` [(#4333)](https://github.com/stdlib-js/stdlib/pull/4333) _(by Dhruv Arvind Singh, Philipp Burckhardt, stdlib-bot)_
 -   [`2965f8f`](https://github.com/stdlib-js/stdlib/commit/2965f8f4d1469ed76c7d9c150b39a87b62d73fbd) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 
@@ -47,8 +48,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Dhruv Arvind Singh
 -   Philipp Burckhardt
 
