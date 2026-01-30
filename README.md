@@ -65,13 +65,18 @@ for `0 <= p < 1`, where `sigma > 0` is the scale parameter.
 ## Usage
 
 ```javascript
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-rayleigh-quantile/tags). For example,
+
+```javascript
 import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@v0.3.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@esm/index.mjs';
 ```
 
 #### quantile( p, sigma )
@@ -155,7 +160,7 @@ y = myQuantile( 1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@v0.3.0-esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
