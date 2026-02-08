@@ -65,13 +65,13 @@ for `0 <= p < 1`, where `sigma > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@deno/mod.js';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@v0.3.1-deno/mod.js';
 ```
 
 #### quantile( p, sigma )
@@ -150,7 +150,7 @@ y = myQuantile( 1.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@deno/mod.js';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-rayleigh-quantile@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
