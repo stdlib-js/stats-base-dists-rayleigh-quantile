@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-22)
+## Unreleased (2026-08-27)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`33648e5`](https://github.com/stdlib-js/stdlib/commit/33648e5b76d093782e676d4d8d52a9a21f77cb9d) - **test:** migrate `stats/base/dists/rayleigh/quantile` to ULP-based assertions [(#14722)](https://github.com/stdlib-js/stdlib/pull/14722) _(by Athan Reines)_
 -   [`a344e9b`](https://github.com/stdlib-js/stdlib/commit/a344e9bc324056a291793124bada06d6661592e7) - **fix:** avoid overflow in `stats/base/dists/rayleigh/quantile` [(#14480)](https://github.com/stdlib-js/stdlib/pull/14480) _(by Philipp Burckhardt)_
 -   [`437234c`](https://github.com/stdlib-js/stdlib/commit/437234c10dcf8d6024f59f98f18d5d19ecf49026) - **docs:** fix REPL text notes [(#12682)](https://github.com/stdlib-js/stdlib/pull/12682) _(by Philipp Burckhardt)_
 
@@ -35,8 +36,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
